@@ -27,6 +27,6 @@ http
 
     res.end(calendar.toString())
   })
-  .listen(3000, "localhost:3000", () => {
+  .listen(3000, "localhost", () => {
     console.log("Server running at http://127.0.0.1:3000/")
   })
